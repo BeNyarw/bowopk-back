@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pokdx"
+version = "0.1.0"
+description = "A simple api pokedex"
+authors = ["BeNyarw <49069504+BeNyarw@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2.5"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.3.0"
+django-cors-headers = "^4.2.0"
+psycopg2 = "^2.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
